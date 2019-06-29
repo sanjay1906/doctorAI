@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>DoctorAI</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper fixed-top">
+            <img class="logo" src="/images/logo.png">
+            <a href="#" class="brand-logo">Doctor AI</a>
+             <ul class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">Contant Us</a></li>
+            <li><a href="#">About Us</a></li>
+            </ul>
+   </div>
+  </nav>
+
+  <div class="slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img class="img" src="./images/image1.jpeg"> <!-- random image -->
+          <div class="caption center-align">
+            <h3 class="slogan">We Care for Your Health Every Moment</h3> 
+            
+            <h5 class="get light grey-text text-lighten-3">Get Started</h5>
+          </div>
+        </li>
+        <li>
+          <img class="img" src="./images/image2.jpeg"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img class="img" src="./images/image3.jpeg"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+      
+    <script>
+        
+        $(document).ready(function(){
+      $('.slider').slider();
+    });
+        
+
+        </script>  
+  
+        
+   
+    </body>
+</html>

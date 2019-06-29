@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+            
+<style>
+ 
+.slider{
+
+    height: 655px !important;
+
+}
+
+
+ .img{
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 100vh; 
+}
+
+.slides{
+    height: 655px !important;
+    
+    
+
+}
+.slogan{
+    font-size: 52px;
+  height: 150px;
+  font-family: Baskerville;
+  font-weight: 600;
+  color: #ffffff;
+}
+.get{
+    font-size: 27px;
+  font-family: Baskerville;
+  font-weight: 600;
+  color: #ffffff;
+}
+@media screen and (max-width: 600px){
+  .slogan{
+  font-size: 52px;
+  height: 150px;
+  font-family: Baskerville;
+  font-weight: 300;
+  color: #ffffff;
+    }
+}
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+</style>
+
+
+    <title>slider</title>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+        <div class="">
+      <a class="brand-logo"><img class="logo" src="/images/logo.png"><span class="name">Doctor AI</span></a>
+      <ul id="nav-mobile" class="right DA hide-on-med-and-down">
+        <li><a href="sass.html">Home</a></li>
+        <li><a href="badges.html">Sign in</a></li>
+        <li><a href="collapsible.html">Contant Us</a></li>
+        <li><a href="collapsible.html">About Us</a></li>
+        </ul>
+</div>
+</div>
+</nav>
+
+
+        <div class="slider fullscreen">
+                <ul class="slides">
+                  <li>
+                    <img class="img" src="./images/image1.jpeg"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3 class="slogan">We Care for Your Health Every Moment</h3> 
+                      
+                      <h5 class="get light grey-text text-lighten-3">Get Started</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img class="img" src="./images/image2.jpeg"> <!-- random image -->
+                    <div class="caption left-align">
+                      <h3>Left Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img class="img" src="./images/image3.jpeg"> <!-- random image -->
+                    <div class="caption right-align">
+                      <h3>Right Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+                  
+        <script>
+        
+        $(document).ready(function(){
+      $('.slider').slider();
+    });
+        
+
+        </script>    
+    
+</body>
+</html>

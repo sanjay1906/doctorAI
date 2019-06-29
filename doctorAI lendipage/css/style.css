@@ -1,0 +1,85 @@
+nav{
+ position: fixed;
+ padding: 0px 50px;
+ background-color: #f9f9ff;
+}
+
+.logo{
+    height: 60px;
+    width: 75px;
+}
+.name{
+    padding-right: 25px;
+}
+nav li a:hover{
+    background: none;
+}
+ul li a{
+         font-family: Baskerville;
+        font-size: 25px;
+        color: #1e90ff;
+}
+.brand-logo{
+      font-family: Baskerville;
+        font-size: 30px;
+        color: #1e90ff;
+}
+    
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.slider{
+
+    height: 655px !important;
+
+}
+
+
+ .img{
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 100vh; 
+}
+
+.slides{
+    height: 655px !important;
+    
+    
+
+}
+.slogan{
+    font-size: 52px;
+  height: 150px;
+  font-family: Baskerville;
+  font-weight: 600;
+  color: #ffffff;
+}
+.get{
+    font-size: 27px;
+  font-family: Baskerville;
+  font-weight: 600;
+  color: #ffffff;
+}
+@media screen and (max-width: 600px){
+  .slogan{
+  font-size: 52px;
+  height: 150px;
+  font-family: Baskerville;
+  font-weight: 300;
+  color: #ffffff;
+    }
+}
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
